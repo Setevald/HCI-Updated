@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   [class*='col-'] {
+    width: 100%;
+   }
+   @media only screen and (min-width:768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+   }
+    * {
+    box-sizing: border-box;
+    }
+
+    .header {
+  border: 1px solid ;
+  padding: 15px;
+  background-color: yellow;
+  color:#36454F;
+    }
+
+    .menu {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 1px solid ;
+    background-color: skyblue;
+    color:#FAF9F6;
+    }
+    
+    .main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid ;
+    background-color: #4169e1;
+    }
+    .colour{
+    color:#FFE5B4;
+    text-align:center;
+    }
+    .center-image {
+        display: block;
+        margin: 0 auto;
+    }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1 align="center"> About me </h1>
+            <img src="photo.JPG" height= 200 style="max-width:100%;" alt="photo of myself" title="Steven" class="center-image">
+        </section>
+    
+        
+            <div class="header">
+                <div class="col-3">
+                <section class="all-style back" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                    <h1> Steven gerald marlent </h1>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="col-6 left">  
+                    <h3> 2702398283 - Computer science(L1AC)</h3>
+                        <input type="radio" id="male" name="gender" value="MALE" checked>
+                        <label for="male">Male</label><br>
+                        
+                        <input type="radio" id="female" name="gender" value="FEMALE">
+                        <label for="female">Female</label><br>
+                    <!--Above this is for radio button-->
+                </div>
+            </div>  
+            <div class="main">  
+                <div class="col-3 right">
+                    <div class="colour">
+                        <p> <!--This for paragraph to brief myself-->
+                            When it comes to earning a degree in computer science, it takes hard work and commitment. <br />
+                            I am steven, 18 years old and currently studying in binus university. <br />
+                            During my break time i usually either playing computer games or improve my coding skills <br />
+                        </p>
+                    </div>
+                </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

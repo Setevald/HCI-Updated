@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    @media screen and (max-width: 767px){
+    .new{
+        color:#191970;
+        background-color:#f8f7f3;;
+    }
+    .new .text {
+        background-color: orange;
+        padding: 1em;
+    }  
+    .form-control {
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.1;
+    }
+    }
+    .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    }
+    .fa:hover {
+    opacity: 0.7;
+    }
+    .fa-instagram {
+    background: #125688;
+    color: white;
+    }
+    .fa-rss {
+    background: #ff6600;
+    color: white;
+    }
+    .fa-spot {
+    background: greenyellow;
+    color: white;
+    }
+    </style>
+</head>
+<body>
+            <div class="new">
+                <div class="text">
+                    <h2>My social media:</h2> <!--This is just a text with link-->
+                    <a href="https://open.spotify.com/user/l3pl251hk5gxerty3rx0p9ab6?si=aa553bbdb4de4e4d" class="fa fa-spot"> spotify</a> 
+                    <a href="https://www.instagram.com/stevengerald61/" class="fa fa-instagram">Instagram</a>
+                    <a href="https://github.com/Setevald" class="fa fa-rss"> github</a> 
+                </div>
+            </div>
+            <div class="form-control">
+                <h2>My programming skills: </h2>
+                
+                <input type="checkbox" id="program1" value="HTML" checked>
+                <label for="program1"> HTML</label><br>
+                
+                <input type="checkbox" id="program2" value="C">
+                <label for="program2"> C</label><br>
+
+                <input type="checkbox" id="program3" value="Python"checked>
+                <label for="program3"> Python</label><br>
+            </div>
+</body>
+</html>

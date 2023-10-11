@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .all-style {
+    border: solid;
+    border-radius: 1em;
+    background-color: peachpuff;
+    }
+    @media screen and (max-width: 780px){
+    .new{
+        color:#191970;
+        background-color:#f8f7f3;;
+    }
+    .new .text {
+        background-color: orange;
+        padding: 1em;
+    }
+    .new .style {
+        background-color: yellow;
+        padding: 1em;
+    }
+}
+    body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: royalblue; /* Optional background color */
+    }
+    
+    .colour{
+    color:#000099;
+    text-align:center;
+    }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="all-style">
+                <fieldset style="width: 300px;">
+                <legend><h3>My hobbies:</h3></legend>
+                <ul> 
+                    <li>Playing computer games </li>
+                    <li>Going to the gym </li>
+                    <li>Playing golf </li>
+                    </ul>
+                </fieldset>
+                
+             <!--both hobby and interest is unordered list-->
+            
+                <fieldset style="width: 300px;">
+                <legend><h3>My Interest:</h3></legend>
+                <ul>
+                    <li>Digital currency </li>
+                    <li>golf </li>
+                    <li>Workout </li>
+                </ul>
+                </fieldset>
+            
+            
+                <div class="new">
+                    <div class="style">
+                        <h2>Education:</h2>  <!--This is a text with link and ordered list-->
+                        <ol>
+                            <li><a href="https://www.binabangsaschool.com"> Highschool</a> </li>
+                            <li><a href="https://binus.ac.id"> University(current)</a> </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

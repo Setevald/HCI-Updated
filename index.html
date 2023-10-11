@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center-image {
+        display: block;
+        margin: 0 auto;
+        }
+
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 20px;
+            text-align: center;
+        }
+        .flex-item-left{
+            background-color:#FFDB58;
+            padding: 20px;
+            flex: 33%;
+        }
+        .flex-item-middle{
+            background-color: #6ffafb;
+            padding: 20px;
+            flex: 33%;
+        }
+        .flex-item-right{
+            background-color: #968E85;
+            padding: 20px;
+            flex: 33%;
+        }
+        @media (max-width: 800px) {
+        .flex-item-right, .flex-item-middle, .flex-item-left {
+    flex: 100%;
+  }
+
+}
+    </style>
+</head>
+<body>
+    <h1>To know more about me:</h1>
+    <img src="car.jpg" height= 200 style="max-width:100%;" alt="photo of myself" title="hehe" class="center-image">
+    <div class="flex-container">
+        <div class="flex-item-left" >
+            <a href="index-1.html">About myself</a>
+        </div>
+        <div class="flex-item-middle">
+            <a href="index-2.html">Education</a>
+        </div>
+        <div class="flex-item-right">
+            <a href="index-3.html">My social media</a>
+        </div>
+    </div>
+    
+</body>
+</html>
